@@ -2,7 +2,8 @@
 is an engaging, browser-based game that simulates a strategic conquest where players compete to capture kingdoms on a grid. This game combines elements of strategy, randomness, and real-time decision-making through strategic guessing and is perfect for group play, especially in remote setups.
 <h2>Game Setup and Initialization </h2>
 <ul>
-Setting up the game is straightforward. Here is what you need to do:
+<h2>Setting up the game is straightforward. Here is what you need to do:</h2>
+ <li>Heres the Link to the Game: https://manan50.github.io/Course8710-Kingdoms-Game-Project1/ </li>
  <li>	Start the Game: Initiate the game setup. The moderator is prompted to enter the number of real kingdoms and fake kingdoms.</li>
  <li> Enter Names: The moderator is asked to turn off screen sharing and input player names alongside their corresponding kingdom names, which are sent privately to the moderator by the players.</li>
 <li>	Game Interface: After setup, the game displays a conquest map with a grid overlay. Player names are listed on one side, and kingdom selection buttons are on the other.</li>
