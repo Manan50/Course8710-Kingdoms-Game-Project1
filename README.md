@@ -1,4 +1,4 @@
-**Kingdoms**
+<h2>Kingdoms</h2>
 is an engaging, browser-based game that simulates a strategic conquest where players compete to capture kingdoms on a grid. This game combines elements of strategy, randomness, and real-time decision-making through strategic guessing and is perfect for group play, especially in remote setups.
 Game Setup and Initialization
 Setting up the game is straightforward. Here is what you need to do:
