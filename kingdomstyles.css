@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("kingdombg.jpg");
+}
+
+#game-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    /* This ensures your game container fills the whole height of the screen */
+}
+
+#kingdoms-section,
+#players-section {
+    flex: 1;
+    padding: 20px;
+    min-height: 100px;
+    /* This gives a minimum height */
+}
+
+#map-section {
+    flex: 3;
+    position: relative;
+    height: fit-content;
+    margin: 15px 0px;
+}
+
+#map-image {
+    width: 100%;
+    height: 100%;
+    /* Adjusted from auto */
+    /*object-fit: relative; Added to maintain aspect ratio */
+    display: block;
+}
+
+#grid-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    grid-gap: 2px;
+    z-index: 1;
+    /* Ensures the grid is above the map image */
+}
+
+.grid-cell {
+    border: 2px solid #000;
+    background-color: transparent;
+    color: transparent;
+    font-size: 15px;
+    font-family: monospace;
+    text-align: center;
+    width: auto;
+    /* Adjust the width and height as needed */
+    height: auto;
+}
+
+
+.kingdom-button {
+    background-color: #6A9C89 !important;
+    border: none !important;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 5px;
+    cursor: pointer;
+}
+
+.kingdom-button:hover {
+    background-color: #186F65 !important;
+    border: none !important;
+}
+
+.eliminated {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.player-name {
+    background-color: #008cba;
+    border: none !important;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    margin: 5px 5px;
+}
+
+.player-name:hover {
+    background-color: #186F65 !important;
+    border: none !important;
+}
+
+/* Below is the change Manan made for highlighting*/
+.text-box {
+    background-color: #45474B;
+    padding: 7px;
+    border: 1px solid #000;
+    width: 360px;
+    margin: 0 auto;
+}
+
+#rounds {
+    text-align: center;
+    font-size: 17px;
+    color: #F5F7F8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.highlight {
+    animation: highlight 1s infinite ease-in-out;
+}
+
+@keyframes highlight {
+
+    0%,
+    100% {
+        color: #F5F7F8;
+    }
+
+    50% {
+        color: #000;
+    }
+}

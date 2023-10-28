@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+  background-image: url("kingdombg.jpg");
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  text-align: -webkit-center;
+}
+
+h1 {
+  font-size: 4em !important;
+  font-family: 'Times New Roman', Times, serif;
+  color: #F5F7F8 !important;
+  text-align: center;
+  font-weight: 600 !important;
+}
+
+#player-form {
+  margin-top: 30px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  padding: 37px;
+  border: 2px solid;
+  background-color: rgba(255, 228, 196, 0.5);
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(5px);
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 30px;
+}
+
+/* Css for the input and labels inside form by Manan */
+.playerLabel {
+  font-weight: 600;
+  margin: 5px 0px
+}
+
+.kingdomLabel {
+  font-weight: 600;
+  margin: 5px 0px
+}
+
+.fakeKingdomLabel {
+  font-weight: 600;
+  margin: 5px 0px
+}
+
+.playerInput {
+  margin: 10px 0px;
+}
+
+.kingdomInput {
+  margin: 10px 0px;
+}
+
+.fakeKingdomInput {
+  margin: 10px 0px;
+}
+
+/* --------------------------------------------- */
+.kingdom {
+  float: right;
+}
+
+#kingdomId {
+  float: right;
+  font-size: 1.3em;
+}
+
+.players {
+  vertical-align: super;
+  float: left;
+}
+
+#playerId {
+  font-size: 1.3em;
+  float: left;
+}
+
+#falseKingdomId {
+  font-size: 1.3em;
+}
+
+.note {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  width: fit-content;
+}
+
+.note1 {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  width: fit-content;
+}
+
+.personalbtn {
+  margin-top: 15px;
+  font-weight: 700 !important;
+}
